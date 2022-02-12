@@ -1,2 +1,2 @@
-# grunt
+# Grunt
 Basic grunt project setup

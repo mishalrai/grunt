@@ -1,0 +1,10 @@
+@import 'variables';
+@import 'colors';
+@import 'helpers/placeholders/placeholder.master';
+@import 'helpers/mixins/mixins.master';
+@import 'helpers/classess/classess.master';
+@import 'base/base.master';
+body{
+    background: red;
+    color: red;
+}

@@ -1,0 +1,38 @@
+{
+  "name": "grunt-basic",
+  "version": "1.0.0",
+  "description": "basic grunt project setup",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "grunt --watch",
+    "build": "grunt build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/fanseethemes/fansee-addons.git"
+  },
+  "keywords": [
+    "grunt",
+    "grunt-setup"
+  ],
+  "author": "mishal rai",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^1.4.1",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^4.0.0",
+    "grunt-contrib-jshint": "^3.0.0",
+    "grunt-contrib-uglify": "^5.0.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-sass": "^3.1.0",
+    "load-grunt-tasks": "^5.1.0",
+    "node-sass": "^6.0.0"
+  },
+  "bugs": {
+    "url": "https://bitbucket.org/fanseethemes/fansee-addons/issues"
+  },
+  "homepage": "https://bitbucket.org/fanseethemes/fansee-addons#readme"
+}
